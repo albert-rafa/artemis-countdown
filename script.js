@@ -1,4 +1,4 @@
-const launch = new Date(2022, 8, 27, 13)
+const launch = new Date(2022, 9, 2, 12)
 
 const d = document.querySelector('.days');
 const h = document.querySelector('.hours');
