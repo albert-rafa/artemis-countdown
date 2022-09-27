@@ -3,3 +3,66 @@ font-family: 'Abel', sans-serif;
 font-family: 'Maven Pro', sans-serif;
 */
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+
+    background-image: url(assets/vincentiu-solomon-ln5drpv_ImI-unsplash.jpg);
+    background-position: bottom;
+    background-size: cover;
+    overflow: hidden;
+}
+
+header {
+    width: 100%;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header h1 {
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: lighter;
+    color: white;
+}
+header h1 span {
+    font-weight: bold;
+}
+header img {
+    height: 10rem;
+}
+
+.countdown {
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 3rem;
+
+    font-family: 'Abel', sans-serif;
+    color: white;
+    text-shadow: 0 0 20px white;
+}
+.countdown-wrapper {
+    width: 13rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.countdown span {
+    font-size: 8rem;
+    font-weight: bold;
+}
+.countdown p {
+    font-size: 1.5rem;
+}
