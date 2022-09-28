@@ -1,9 +1,5 @@
-const launch = new Date(2022, 9, 2, 12)
-
-const d = document.querySelector('.days');
-const h = document.querySelector('.hours');
-const m = document.querySelector('.minutes');
-const s = document.querySelector('.seconds');
+const launch = new Date(2022, 9, 17)
+// October 17th, 2022
 
 countdown();
 
@@ -25,6 +21,11 @@ function countdown() {
 }
 
 function updateTimer(days, hours, minutes, seconds) {
+    const d = document.querySelector('.days');
+    const h = document.querySelector('.hours');
+    const m = document.querySelector('.minutes');
+    const s = document.querySelector('.seconds');
+
     d.innerText = checkTime(days);
     h.innerText = checkTime(hours % 24);
     m.innerText = checkTime(minutes % 60);
