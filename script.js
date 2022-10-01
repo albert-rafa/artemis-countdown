@@ -1,5 +1,5 @@
-const launch = new Date(2022, 9, 17)
-// October 17th, 2022
+const launch = new Date(2022, 10, 12)
+// November 12nd, 2022
 
 countdown();
 
