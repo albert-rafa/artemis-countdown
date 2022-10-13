@@ -1,5 +1,5 @@
-const launch = new Date(2022, 10, 12)
-// November 12nd, 2022
+const launch = new Date(Date.UTC(2022, 10, 14, 17, 07))
+// November 14th, 2022 17:07 GMT
 
 countdown();
 
