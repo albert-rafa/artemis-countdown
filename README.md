@@ -18,10 +18,10 @@ You can see the live demo of this project [here](https://albert-rafa.github.io/a
 
 The project structure is as follows:
 
-- `public/`: Contains the HTML file and other static assets.
+- `public/`: Contains other static assets.
 - `src/`: Contains the React components and styles.
   - `components/`: Contains reusable React components.
-  - `assets/`: Contains Tailwind CSS styles.
+  - `assets/`: Contains the images used.
 
 ## 🤝 Contributing
 
