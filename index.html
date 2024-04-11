@@ -1,64 +1,22 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <title>Artemis 1 launch</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="assets/artemis-logo-white-cropped.png" type="image/png">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- TEXT FONTS -->
+    <title>Artemis launch</title>
+    
+    <!-- Fases da lua icones - https://www.flaticon.com/br/icones-gratis/fase-da-lua -->
+    <link rel="icon" type="image/png" href="/moon.png" />
+
+    <!-- Download de fontes -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Abel&family=Maven+Pro:wght@400;500;600&display=swap" rel="stylesheet">
-</head>
-<body>
-    <header>
-        <img src="assets/artemis-logo-white.png" alt="Artemis program logo">
-        <h1><span>Artemis 1</span> launch in</h1>
-	<!--<p>Launch window openning</p>-->
-    </header>
-    <div class="countdown">
-        <div class="countdown-wrapper">
-            <span class="days"></span>
-            <p>days</p>
-        </div>
-        <div class="countdown-wrapper">
-            <span class="hours"></span>
-            <p>hours</p>
-        </div>
-        <div class="countdown-wrapper">
-            <span class="minutes"></span>
-            <p>minutes</p>
-        </div>
-        <div class="countdown-wrapper">
-            <span class="seconds"></span>
-            <p>seconds</p>
-        </div>
-    </div>
-    <div class="links">
-        <div class="buttons">
-            <a href="https://www.nasa.gov/artemisprogram" target="_blank">LEARN MORE</a>
-            <a href="https://www.youtube.com/watch?v=4_uvpdA4wKk" target="_self" class="">WATCH LIVE</a>
-        </div>
-        <div class="social">
-            <a href="https://instagram.com/nasaartemis" target="_blank">
-                <img src="assets/instagram.png" alt="Instagram logo">
-            </a>
-            <a href="https://twitter.com/NASAArtemis" target="_blank">
-                <img src="assets/twitter.png" alt="Twitter logo">
-            </a>
-            <a href="https://www.facebook.com/NASAArtemis/" target="_blank">
-                <img src="assets/facebook.png" alt="Facebook logo">
-            </a>
-        </div>
-    </div>
-    <footer>
-        Made by Rafa Albert
-    </footer>
+    <link href="https://fonts.googleapis.com/css2?family=Abel&family=Maven+Pro:wght@400..900&display=swap" rel="stylesheet">
 
-    <script src="script.js"></script>
-</body>
+  </head>
+  <body>
+    <div id="root" class="bg-slate-950 h-screen w-screen"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
 </html>
