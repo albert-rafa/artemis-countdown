@@ -2,6 +2,7 @@
   "name": "artemis-countdown",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://albert-rafa.github.io/artemis-countdown/",
   "type": "module",
   "scripts": {
     "dev": "vite",
