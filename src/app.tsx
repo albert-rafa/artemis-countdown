@@ -4,8 +4,8 @@ import { Link } from "./components/link"
 import { Social } from "./components/social";
 
 export default function App() {
-  const launch = new Date(Date.UTC(2025, 7, 1, 0, 1))
-  // Semptember 1st, 2025 00:01 GMT
+  const launch = new Date(Date.UTC(2026, 4, 1, 0, 1))
+  // April 1st, 2026 00:01 GMT
   
   return (
     <div className="text-white h-full w-full bg-image bg-cover flex flex-col justify-center items-center gap-6">

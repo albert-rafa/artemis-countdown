@@ -1,6 +1,6 @@
 # Artemis Program Launch Countdown
 
-This project is a simple countdown webpage built using React and Tailwind CSS to display the time remaining until the next Artemis program launch (Artemis 2), scheduled for September 2025. Please note that the launch date is not confirmed and subject to change. The last time the launch date was updated in the code was April 11st 2024.
+This project is a simple countdown webpage built using React and Tailwind CSS to display the time remaining until the next Artemis program launch (Artemis 2), scheduled for April 2026. Please note that the launch date is not confirmed and subject to change. The last time the launch date was updated in the code was December 10th 2024.
 
 ## 🖼️ Preview
 
